@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of GIFImageView.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Med Hajlaoui/GIFImageView",
+  "homepage": "https://github.com/mouhamed.hajlaoui@gmail.com/GIFImageView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Med Hajlaoui": "mouhamed.hajlaoui@gmail.com"
+    "mouhamed.hajlaoui@gmail.com": "mouhamed.hajlaoui@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Med Hajlaoui/GIFImageView.git",
+    "git": "https://github.com/mouhamed.hajlaoui@gmail.com/GIFImageView.git",
     "tag": "0.1.0"
   },
   "platforms": {

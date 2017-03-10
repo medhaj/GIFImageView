@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  GIFImageView
 //
-//  Created by Med Hajlaoui on 03/10/2017.
-//  Copyright (c) 2017 Med Hajlaoui. All rights reserved.
+//  Created by mouhamed.hajlaoui@gmail.com on 03/10/2017.
+//  Copyright (c) 2017 mouhamed.hajlaoui@gmail.com. All rights reserved.
 //
 
 import UIKit

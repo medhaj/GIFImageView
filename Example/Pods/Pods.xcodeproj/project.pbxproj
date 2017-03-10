@@ -10,7 +10,7 @@
 		65251F57CE7D2FFB847ED520C2053F41 /* Pods-GIFImageView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F160496084E5545C6EBEC1D86716FA3C /* Pods-GIFImageView_Tests-dummy.m */; };
 		6975D464D2332CE6AD89445CDA8DE477 /* GIFImageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC1E103EF3891F7ECBA3A9DC21263A3 /* GIFImageView-dummy.m */; };
 		724F63D40B61C901B51DB085BFFE2088 /* Pods-GIFImageView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F48BFF22D1EB5E92F949C586B8DF6738 /* Pods-GIFImageView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80CBA6061E72AFA600B28DEE /* GIFImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CBA6051E72AFA600B28DEE /* GIFImageView.swift */; };
+		80CBA6261E72B38200B28DEE /* GIFImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CBA6251E72B38200B28DEE /* GIFImageView.swift */; };
 		8F006BE9DB43C23C1DD8111DED992C49 /* GIFImageView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 389F816A48C98DB2240BDADD9C33A18D /* GIFImageView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A621B80F29FC541564E9CF60A184EF26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		A9BD186674137E5F80F30A81AEE87E44 /* Pods-GIFImageView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFD9BC6744061E279310DA4131636227 /* Pods-GIFImageView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -42,7 +42,7 @@
 		58BDD39C5DB5EA2ED296E3A559BA530F /* Pods-GIFImageView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GIFImageView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6A2E0E332B4856026DBBED7126289B58 /* Pods-GIFImageView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GIFImageView_Tests.modulemap"; sourceTree = "<group>"; };
 		7E378EFFD3257C55B631437E714F80F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80CBA6051E72AFA600B28DEE /* GIFImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIFImageView.swift; sourceTree = "<group>"; };
+		80CBA6251E72B38200B28DEE /* GIFImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIFImageView.swift; sourceTree = "<group>"; };
 		854FB3B4D93A6C952364EE76CA978006 /* Pods-GIFImageView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GIFImageView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8AF04F07AE813A32EB19D0225C8478B0 /* Pods-GIFImageView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GIFImageView_Example-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -126,7 +126,7 @@
 		7C18D1532904E5E2A5BDFD682F1C96A6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				80CBA6051E72AFA600B28DEE /* GIFImageView.swift */,
+				80CBA6251E72B38200B28DEE /* GIFImageView.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -343,7 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6975D464D2332CE6AD89445CDA8DE477 /* GIFImageView-dummy.m in Sources */,
-				80CBA6061E72AFA600B28DEE /* GIFImageView.swift in Sources */,
+				80CBA6261E72B38200B28DEE /* GIFImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
