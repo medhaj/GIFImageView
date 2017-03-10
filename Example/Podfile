@@ -1,11 +1,9 @@
 use_frameworks!
 
 target 'GIFImageView_Example' do
-  pod 'GIFImageView', :path => '../'
+  pod 'GIFImageView'
 
   target 'GIFImageView_Tests' do
     inherit! :search_paths
-
-    
   end
 end
