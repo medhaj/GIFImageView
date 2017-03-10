@@ -1,0 +1,22 @@
+{
+  "name": "GIFImageView",
+  "version": "0.1.0",
+  "summary": "A short description of GIFImageView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Med Hajlaoui/GIFImageView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Med Hajlaoui": "mouhamed.hajlaoui@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Med Hajlaoui/GIFImageView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GIFImageView/Classes/**/*"
+}
