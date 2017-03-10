@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		0AB34D7B5DA94C96F960EDF0 /* Pods_GIFImageView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAC302A0AD27F9E3E5D0C16 /* Pods_GIFImageView_Tests.framework */; };
-		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
-		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		71382920FDE905D56E89D082 /* Pods_GIFImageView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F63191146D0A752A9E78599 /* Pods_GIFImageView_Example.framework */; };
+		80CBA6331E72B68E00B28DEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CBA62A1E72B68E00B28DEE /* AppDelegate.swift */; };
+		80CBA6341E72B68E00B28DEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CBA62B1E72B68E00B28DEE /* ViewController.swift */; };
+		80CBA6361E72B68E00B28DEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80CBA62F1E72B68E00B28DEE /* Images.xcassets */; };
+		80CBA6371E72B68E00B28DEE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80CBA6311E72B68E00B28DEE /* LaunchScreen.xib */; };
+		80CBA6381E72B68E00B28DEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CBA6321E72B68E00B28DEE /* Main.storyboard */; };
+		80CBA63A1E72B6B000B28DEE /* charmander.gif in Resources */ = {isa = PBXBuildFile; fileRef = 80CBA6391E72B6B000B28DEE /* charmander.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,25 +29,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		22D84FF8865247755CF49E7E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		22D84FF8865247755CF49E7E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		496E6166B4DBA4AD02E18903 /* Pods-GIFImageView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIFImageView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GIFImageView_Example/Pods-GIFImageView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* GIFImageView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GIFImageView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* GIFImageView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GIFImageView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7DE4B9E38C717AE1EC98D769 /* Pods-GIFImageView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIFImageView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GIFImageView_Example/Pods-GIFImageView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		80CBA62A1E72B68E00B28DEE /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80CBA62B1E72B68E00B28DEE /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80CBA62F1E72B68E00B28DEE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		80CBA6311E72B68E00B28DEE /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		80CBA6321E72B68E00B28DEE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		80CBA6391E72B6B000B28DEE /* charmander.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = charmander.gif; sourceTree = "<group>"; };
 		8F63191146D0A752A9E78599 /* Pods_GIFImageView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GIFImageView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		933894985C22146353451497 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		933894985C22146353451497 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AD12ED9A7FDB5BE4444B4C65 /* Pods-GIFImageView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIFImageView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GIFImageView_Tests/Pods-GIFImageView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BEA06716B1B8569A6BBF38C9 /* Pods-GIFImageView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIFImageView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GIFImageView_Tests/Pods-GIFImageView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CCAC302A0AD27F9E3E5D0C16 /* Pods_GIFImageView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GIFImageView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE634B41C643F47E6B0E77D8 /* GIFImageView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GIFImageView.podspec; path = ../GIFImageView.podspec; sourceTree = "<group>"; };
+		EE634B41C643F47E6B0E77D8 /* GIFImageView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GIFImageView.podspec; path = ../GIFImageView.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,11 +115,8 @@
 		607FACD21AFB9204008FA782 /* Example for GIFImageView */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				80CBA6291E72B68E00B28DEE /* Classes */,
+				80CBA62C1E72B68E00B28DEE /* Resources */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for GIFImageView";
@@ -157,6 +156,42 @@
 				933894985C22146353451497 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		80CBA6291E72B68E00B28DEE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				80CBA62A1E72B68E00B28DEE /* AppDelegate.swift */,
+				80CBA62B1E72B68E00B28DEE /* ViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		80CBA62C1E72B68E00B28DEE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				80CBA62D1E72B68E00B28DEE /* GIFs */,
+				80CBA62F1E72B68E00B28DEE /* Images.xcassets */,
+				80CBA6301E72B68E00B28DEE /* Interface */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		80CBA62D1E72B68E00B28DEE /* GIFs */ = {
+			isa = PBXGroup;
+			children = (
+				80CBA6391E72B6B000B28DEE /* charmander.gif */,
+			);
+			path = GIFs;
+			sourceTree = "<group>";
+		};
+		80CBA6301E72B68E00B28DEE /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				80CBA6311E72B68E00B28DEE /* LaunchScreen.xib */,
+				80CBA6321E72B68E00B28DEE /* Main.storyboard */,
+			);
+			path = Interface;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,9 +283,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				80CBA6371E72B68E00B28DEE /* LaunchScreen.xib in Resources */,
+				80CBA6361E72B68E00B28DEE /* Images.xcassets in Resources */,
+				80CBA6381E72B68E00B28DEE /* Main.storyboard in Resources */,
+				80CBA63A1E72B6B000B28DEE /* charmander.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,8 +397,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				80CBA6341E72B68E00B28DEE /* ViewController.swift in Sources */,
+				80CBA6331E72B68E00B28DEE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,25 +419,6 @@
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDF1AFB9204008FA782 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		607FACED1AFB9204008FA782 /* Debug */ = {
@@ -523,6 +540,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BEA06716B1B8569A6BBF38C9 /* Pods-GIFImageView_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -543,6 +561,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AD12ED9A7FDB5BE4444B4C65 /* Pods-GIFImageView_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

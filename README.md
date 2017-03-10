@@ -1,6 +1,5 @@
 # GIFImageView
 
-[![CI Status](http://img.shields.io/travis/mouhamed.hajlaoui@gmail.com/GIFImageView.svg?style=flat)](https://travis-ci.org/mouhamed.hajlaoui@gmail.com/GIFImageView)
 [![Version](https://img.shields.io/cocoapods/v/GIFImageView.svg?style=flat)](http://cocoapods.org/pods/GIFImageView)
 [![License](https://img.shields.io/cocoapods/l/GIFImageView.svg?style=flat)](http://cocoapods.org/pods/GIFImageView)
 [![Platform](https://img.shields.io/cocoapods/p/GIFImageView.svg?style=flat)](http://cocoapods.org/pods/GIFImageView)
@@ -22,7 +21,7 @@ pod "GIFImageView"
 
 ## Author
 
-mouhamed.hajlaoui@gmail.com, mouhamed.hajlaoui@gmail.com
+Med Hajlaoui, mouhamed.hajlaoui@gmail.com
 
 ## License
 
