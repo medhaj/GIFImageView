@@ -19,18 +19,29 @@ pod 'GIFImageView'
 ## How To use
 
 * **Using Interface Builder**
-	* Drag a UIImageView from Object Library
+
+
+1- Drag a UIImageView from Object Library
+
+	
 <p align="center">
 <img width=200 src="https://github.com/medhaj/GIFImageView/blob/master/Example/GIFImageView/Resources/Assets/1.png?raw=true"/>
 </p>
-	* Set its Class and Source to __GIFImageView__ under the identify inspector
+
+
+2- Set its Class and Source to __GIFImageView__ under the identify inspector
 	
-	<p align="center">
+	
+	
+<p align="center">
 	<img width= 200 src="https://github.com/medhaj/GIFImageView/blob/master/Example/GIFImageView/Resources/Assets/2.png?raw=true" />
 </p>
-	* Under attributes inspector, set the file name and the animation repeat count (0 to loop forever).
 
-	<p align="center">
+
+3- Under attributes inspector, set the file name and the animation repeat count (0 to loop forever).
+
+
+<p align="center">
 	<img width= 200 src="https://github.com/medhaj/GIFImageView/blob/master/Example/GIFImageView/Resources/Assets/3.png?raw=true"/>
 </p>
 
