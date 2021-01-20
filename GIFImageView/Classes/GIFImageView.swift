@@ -11,11 +11,11 @@ import ImageIO
 
 
 @IBDesignable
-class GIFImageView: UIImageView {
+open class GIFImageView: UIImageView {
     @IBInspectable public var animatedImage: String = ""
     @IBInspectable public var repeatCount: Int = 0 // forever
     
-    override func layoutSubviews() {
+    override open func layoutSubviews() {
         super.layoutSubviews()
         
         if let animation = UIImage.animatedImage(named: self.animatedImage) {
